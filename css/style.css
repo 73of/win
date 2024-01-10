@@ -1,0 +1,32 @@
+#countdown{
+    color: beige;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+/*
+#cards{
+    display: none;
+}
+*/
+#loader{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.loader-con{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #000000eb;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+.list-group-item{
+    background-color: transparent;
+}
+img{
+    max-width: 100%;
+}
